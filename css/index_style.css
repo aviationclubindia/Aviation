@@ -44,7 +44,7 @@ nav img{
     background: #fff;
     display: block;
     margin: auto;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 .nav-links ul li:hover::after{
     width: 100%;
@@ -140,9 +140,12 @@ h3{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.3)
 }
-@media(max-width: 700px){
+@media(max-width: 1010px){
     .row{
         flex-direction: column;
+    }
+    .course{
+        padding: 10px;
     }
 }
 
@@ -177,6 +180,14 @@ h3{
 }
 .layer:hover{
     background: rgba(0,0,0,0.8);
+}
+
+.discord-image-join-us{
+    width: 25%;
+}
+
+#resources-sneak{
+    flex-basis: 100%;
 }
 
 .footer{

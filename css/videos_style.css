@@ -120,13 +120,11 @@ p{
 }
 .row{
     margin:  1%;  
-        display: flex;
     justify-content: space-between;
     
     
 }
 .course-col{
-    flex-basis: 41%;
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -186,11 +184,18 @@ h3{
     background: rgba(0,0,0,0.8);
 }
 
+
+
 @media(max-width: 1010px){
     .row{
         display: block;
     }
+
+    .course{
+        padding: 10px;
+    }
 }
+
 
 
 .footer{

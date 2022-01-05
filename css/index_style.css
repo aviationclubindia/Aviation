@@ -147,6 +147,15 @@ h3{
     .course{
         padding: 10px;
     }
+    .entry-link-text{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 260px){
+    .entry-link-text{
+        font-size: 7px;
+    }
 }
 
  /*-----club-----*/

@@ -105,6 +105,9 @@ nav .fa{
     text-align: center;
     padding: 100px;  
 }
+.course h1 {
+    padding-bottom: 2vh;
+}
 p{
   text-decoration: none;
 }

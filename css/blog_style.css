@@ -5,7 +5,7 @@
     
 }
 .header{
-    min-height: 75vh;
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../assets/background.jpg);
     background-position: center;
@@ -50,6 +50,7 @@ nav img{
     width: 100%;
 }
 .text-box{
+    margin-top: 3vh;
     width: 90%;
     color: #fff;
     position: absolute;
